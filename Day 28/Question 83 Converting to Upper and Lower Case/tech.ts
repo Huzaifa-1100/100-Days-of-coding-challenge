@@ -1,0 +1,10 @@
+// Question No. 83
+//  Creating a function that takes a string, converts it to uppercase, then to lowercase
+
+let caseOfLetters = (letters: string) => {
+  let upperCase = letters.toUpperCase();
+  let lowerCase = letters.toLowerCase();
+  console.log(`Upper Case: ${upperCase} \nLower Case: ${lowerCase}`);
+};
+
+caseOfLetters("Typescript");
